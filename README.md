@@ -18,7 +18,7 @@ The MCP connection is provided by BumiAtlas. This repository does not run a sepa
 https://bumiatlas.com/mcp/parcels
 ```
 
-Add it as a custom connector in any MCP client and sign in with Google. More: [bumiatlas.com/mcp-docs](https://bumiatlas.com/mcp-docs).
+Add it as a custom connector in any MCP client and sign in with Google. Tools, examples and data notes: [bumiatlas.com/mcp-docs/parcels](https://bumiatlas.com/mcp-docs/parcels).
 
 ## Tools
 
@@ -27,6 +27,7 @@ Add it as a custom connector in any MCP client and sign in with Google. More: [b
 | `Parcel_search` | Find parcels by certificate number (14 digits, e.g. `22.01.05.03.1.00123`), NIB, village code + NIB as printed on certificates, or `latitude, longitude` with a radius |
 | `Parcel_get` | Full record: right type, declared area vs mapped area and their difference, year, survey method, village, perimeter and sides, RDTR zones, land value zone (ZNT) class, flood hazard; boundary as GeoJSON |
 | `Parcel_overlaps` | Other parcels, HGU, mining/logging concessions and conservation areas overlapping the parcel, with shared area and shares of each |
+| `Parcel_image` | Satellite or street map image of a parcel or point, with every parcel in view outlined and labelled with its NIB, optionally with building footprints (Bali so far) |
 | `Parcel_find_village` | Look up BPN villages (desa/kelurahan) by name or code prefix, or decode a 14-digit certificate number into land office, district and village |
 | `Flood_get` | BNPB InaRISK flood hazard class at a point |
 

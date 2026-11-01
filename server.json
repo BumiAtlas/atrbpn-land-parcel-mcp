@@ -8,7 +8,7 @@
     "url": "https://github.com/BumiAtlas/atrbpn-land-parcel-mcp",
     "source": "github"
   },
-  "websiteUrl": "https://bumiatlas.com/mcp-docs",
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/parcels",
   "remotes": [
     {
       "type": "streamable-http",
